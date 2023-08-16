@@ -1,0 +1,17 @@
+{
+  "name": "todo-blockchain",
+  "version": "1.0.0",
+  "description": "Todo App in Blockchain",
+  "scripts": {
+    "build:all": "pnpm --stream --parallel --filter web --filter contracts -- build",
+    "test:all": "pnpm --stream --parallel --filter web --filter contracts -- test",
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build",
+    "test:web": "pnpm --filter web test",
+    "build:contracts": "pnpm --filter contracts build",
+    "test:contracts": "pnpm --filter contracts test"
+  },
+  "author": "Manuel Salvador",
+  "license": "ISC"
+}
+
